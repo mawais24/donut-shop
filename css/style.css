@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    font-weight: 400;
+    color: #F0236A;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.inner-wrapper{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FFB3CD;
+    position: relative;
+}
+
+header{
+    background-image: url('../img/header-banner.png');
+    width: 100%;
+    padding: 55px;
+    background-repeat: no-repeat;
+}
+
+.products{
+    display: flex;
+    padding: 55px 0;
+    margin: 0 40px;
+    color: white;
+    gap: 40px;
+    align-items: center;
+    border-bottom: 1px solid #3B1E1F;
+}
+
+.products .product-details{
+    flex: 1;
+}
+
+.products .product-details p{
+    padding: 5px 0;
+}
+
+.add-to-card{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #3B1E1F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #3B1E1F;
+}
+
+i {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 0;
+    font-size: 25px;
+    
+}
+
+.order-area{
+    background-color: #BCE0EF;
+    padding: 55px 40px;
+}
+
+.order-details-title{
+    text-align: center;
+}
+
+.order-list{
+    border-bottom: 1px solid #3B1E1F;
+}
+
+.product-item, .product-total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.product-total{
+    padding-top: 20px;
+}
+
+.product-name{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.product-name span{
+    color: #BBBBBB;
+}
+
+.complete-order-btn button, .payment-model-wrapper form button{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 15px 0;
+    background-color: #3B1E1F;
+    color: white;
+    border-radius: 5px;
+}
+
+#payment-model{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 524px;
+    height: 450px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.5);
+}
+
+.payment-model-wrapper{
+    padding: 55px 15px 10px;
+}
+
+.payment-model-wrapper h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.payment-model-wrapper form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.payment-model-wrapper form input{
+    padding: 20px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #3B1E1F;
+}
+
+.order-success-notification h3{
+    background-color: #ECFDF5;
+    font-size: 32px;
+    line-height: 17px;
+    font-style: normal;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 10px;
+    color: #065F46;
+}
+
